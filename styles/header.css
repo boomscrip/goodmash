@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: none;
+  margin: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0;
+}
+.header__wrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1976d2;
+  /* box-shadow: 0px 3px 15px 5px rgba(14, 100, 210, 0.25); */
+  width: 100%;
+  height: auto;
+}
+
+.header_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 1170px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 250px;
+  height: 60px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.header__contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.header_contact__info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.header_contact__info a {
+  text-decoration: none;
+}
+
+.header_contact__info a:hover {
+  text-decoration: none;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+}
+
+.phone p {
+  color: #fff;
+  margin: 0;
+  font-size: 22px;
+}
+
+.phone a:hover {
+  color: #bbbb;
+}
+
+.email a:hover {
+  color: #bbbb;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+.email p {
+  color: #fff;
+  margin: 0;
+}
+
+.phone :hover {
+  color: #ffffff70;
+  transition: 0.2s;
+}
+
+.email :hover {
+  color: #ffffff70;
+  transition: 0.2s;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: auto;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.15s ease-out;
+  flex-direction: row;
+  width: auto;
+  height: 60px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  text-transform: uppercase;
+    /* letter-spacing: 1px; */
+}
+
+.nav-items a:not(:first-child) {
+  margin-left: 10px;
+}
+
+.nav-items a:not(:last-child) {
+  margin-right: 10px;
+}
+
+.nav-items a:hover {
+  border-bottom: 2px solid #bbbbbb;
+  border-radius: 1px;
+  transition: height .35s ease, width .35s ease, border-raidus .35s ease, margin-right .35s ease, border-color .35s ease, background-color .35s ease, color .15s ease;
+  padding-bottom: 5px;
+  color: #bbbbbb;
+}
+
+/* Кнопка */
+.callback-btn {
+  cursor: pointer;
+}
+
+.callback {
+  padding: 0;
+  background-color: #218838;
+  border: none;
+  align-items: center;
+  color: white;
+  height: 30px;
+  text-transform: uppercase;
+  width: 150px;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+@keyframes hover {
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes hover-shadow {
+  0% {
+    transform: translateY(6px);
+    opacity: .4;
+  }
+
+  50% {
+    transform: translateY(3px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(6px);
+    opacity: .4;
+  }
+}
+
+.hover-shadow {
+  display: inline-block;
+  position: relative;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hover-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  transition-duration: 0.3s;
+  transition-property: transform opacity;
+}
+
+.hover-shadow:hover {
+  transform: translateY(-6px);
+  animation-name: hover;
+  animation-duration: 1.5s;
+  animation-delay: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.hover-shadow:hover:before {
+  opacity: .4;
+  transform: translateY(6px);
+  animation-name: hover-shadow;
+  animation-duration: 1.5s;
+  animation-delay: .3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

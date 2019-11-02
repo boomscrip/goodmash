@@ -1,0 +1,121 @@
+.footer__wrapp {
+display: flex;
+width: 100%;
+margin-top: 50px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+}
+.footer__row1 {
+display: flex;
+justify-content: space-between;
+/* align-items: center; */
+flex-direction: row;
+width: 100%;
+max-width: 1170px;
+border: 1px solid red;
+}
+.footer_map {
+display: flex;
+/* height:150px; */
+/* width:300px; */
+/* border: 1px solid green; */
+}
+
+.footer_contact {
+display: flex;
+/* justify-content: center; */
+/* align-items: flex-start; */
+/* height:150px; */
+/* width:250px; */
+/* border: 1px solid blue; */
+}
+
+
+
+.footer_contact__info {
+display: flex;
+height: auto;
+justify-content: space-between;
+/* align-items: center; */
+flex-direction: column;
+border:1px solid ;
+}
+.footer_phone {
+display: flex;
+/* border: 1px solid ; */
+}
+
+
+.footer_email {
+display: flex;
+/* border: 1px solid ; */
+}
+
+
+.footer_nav {
+display: flex;
+/* justify-content: center; */
+/* height:150px; */
+width:200px;
+border: 1px solid orange;
+}
+
+.footer_nav_link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer_social {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+border: 1px solid yellow;
+}
+.footer__row2 {
+display: flex;
+justify-content: center;
+height: 50px;
+
+width: 100%;
+max-width: 1170px;
+/* border: 1px solid grey; */
+}
+.footer_copyright {
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 1px solid pink; */
+}
+
+
+.footer_soc {
+  display: flex;
+justify-content: space-around;
+}
+
+.footer_callback {
+  display: flex;
+  justify-content: center;
+border-radius: 5px;
+  align-items: center;
+
+  box-shadow: 0px 0px 5px 0px rgb(255, 255, 255);
+
+}
+.footer_callback button {
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+background-color: #1976d2;
+}
+.footer_callback:hover {
+ box-shadow: none;
+}
+.footer_callback button:hover {
+  background-color: green;
+
+}

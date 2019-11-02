@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="styles/mobile_header.css">
+  <link rel="stylesheet" href="styles/delivery.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/fontawesome/fontawesome-all.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="stylesheet" href="styles/footer.css">
+
+
+
+
+
+
+</head>
+
+<body>
+
+  <header class="mob__header">
+    <div class="mob_header__logo">
+      <a href="index.html">
+        <img class="mob__logo" src="img/logo.svg" />
+
+      </a>
+    </div>
+
+    <nav id="nav-mobile" class="nav-mobile" role="navigation">
+      <ul class="nav-mobile__menu" id="nav-mobile-menu" tabindex="-1" aria-label="main navigation" hidden>
+
+        <li class="nav-mobile__item"><a href="index.html" class="nav-mobile__link">Главная</a></li>
+        <li class="nav-mobile__item"><a href="about-us.html" class="nav-mobile__link">Услуги</a></li>
+        <li class="nav-mobile__item"><a href="fotogallery.html" class="nav-mobile__link">Продукция</a></li>
+        <li class="nav-mobile__item"><a href="services.html" class="nav-mobile__link">Доставка</a></li>
+        <li class="nav-mobile__item"><a href="contact.html" class="nav-mobile__link">Контакты</a></li>
+      </ul>
+
+      <!-- MENU TOGGLE BUTTON -->
+      <a class="nav-mobile__toggle" role="button" aria-expanded="false" aria-controls="menu">
+        <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+          <g>
+            <line class="menuicon__bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+            <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+            <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+            <circle class="menuicon__circle" r="23" cx="25" cy="25" />
+          </g>
+        </svg>
+      </a>
+
+      <!-- ANIMATED BACKGROUND ELEMENT -->
+      <div class="splash"></div>
+    </nav>
+
+  </header>
+
+
+
+  <header>
+    <div class="header__wrapp">
+      <div class="header_row">
+        <div class="logo">
+          <img src="img/logo.svg" alt="">
+        </div>
+        <div class="nav-menu">
+          <div class="nav-items">
+            <a href="index.html" title="Нажмите чтобы посмотреть страницу Главная">Главная</a>
+            <a href=".html" title="Нажмите чтобы посмотреть страницу Наши услуги">Услуги</a>
+            <a href="products.html" title="Нажмите чтобы посмотреть страницу Продукция">Продукция</a>
+            <a href="delivery.html" title="Нажмите чтобы посмотреть страницу Доставка">Доставка</a>
+            <a href="contact.html" title="Нажмите чтобы посмотреть страницу Контакты">Контакты</a>
+          </div>
+        </div>
+        <div class="callback-btn footer_callback">
+          <button class="callback button hover-shadow" data-toggle="modal" data-target="#exampleModalLong">заказать звонок</button>
+        </div>
+        <div class="header__contact">
+          <div class="header_contact__info">
+            <div class="phone">
+              <a href="tel:89691969994">
+                <p>8 (969)-196-99-94</p>
+              </a>
+            </div>
+            <div class="email">
+              <a href="mailto:gmashine@yandex.ru">
+                <p>gmashine@yandex.ru</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Заполните форму</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body d-flex justify-content-center">
+
+          <div class="contact_form">
+            <!-- <div class="contact_form__title">
+              <span>Связаться с нами:</span>
+            </div> -->
+            <div class="contact_form_input__wrapp">
+              <div class="contact_form_input">
+                <div class="input">
+                  <label>
+                    Ваше имя:
+                    <span>*</span>
+                  </label>
+                  <input type="text" class="field" name="name" placeholder="Введите имя" />
+                </div>
+                <div class="input">
+                  <label>
+                    Контактный телефон:
+                    <span>*</span>
+                  </label>
+                  <input type="text" class="field" name="phone" placeholder="Введите телефон" />
+                </div>
+
+                <div class="contact_form_btn">
+                  <button onclick="save()">
+                    Заказать звонок
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="jumbotron">
+    <h1 class="display-4">Контакты</h1>
+
+    <!-- <p class="lead">Свяжитесь с нами, чтобы уточнить наши реквизиты.</p> -->
+    <hr class="my-4">
+    <!-- <p>Вся продукция застрахована</p> -->
+    <p class="lead">
+
+      <p class="lead"><mark class="bg-warning">ВАЖНАЯ ИНФОРМАЦИЯ!&nbsp;</mark></p>
+      <p class="lead">Свяжитесь с нами, чтобы уточнить наши реквизиты.</p>
+      <p class="lead">Просим вас предварительно связаться с нами, для уточнения по Вашему заказу наличия продукции на нашем складе.</p>
+
+    </p>
+
+    <br>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModalLong">Связаться с нами</button>
+  </div>
+
+
+  <div class="contact__wrapp">
+    <div class="contact_wrapp__row">
+
+      <div class="col_contact__info">
+
+        <div class="contact_info__title">
+          <!-- <span>Контактная информация</span> -->
+        </div>
+
+        <div class="contact__info">
+          <div class="contact__info__row">
+
+            <div class="contact_info__box">
+              <span id="contact_color__span">
+                <i class="fas fa-map-marked-alt"></i>
+                &nbsp;Адрес
+              </span>
+              <span>г. Москва, ул. 50 лет Октября, дом 4 </span>
+              <br>
+              <span id="contact_color__span">
+                <i class="fas fa-phone-alt"></i>
+                &nbsp;Телефон</span>
+              <a href="tel:89691969994">
+                <span>8 (969)-196-99-94</span>
+              </a>
+            </div>
+
+            <div class="contact_info__box">
+              <span id="contact_color__span">
+                <!-- <i class="far fa-clock"></i> -->
+                <i class="fas fa-clock"></i>
+                &nbsp;Время работы
+              </span>
+              <span>с 9:30 до 22:00 (БЕЗ ВЫХОДНЫХ)</span>
+              <br>
+              <span id="contact_color__span">
+                <i class="fas fa-envelope"></i>
+                &nbsp;Почта</span>
+              <a href="mailto:gmashine@yandex.ru">
+                <span>gmashine@yandex.ru</span>
+              </a>
+            </div>
+
+            <!-- <div class="contact_info__box">
+            <span>Почта</span>
+            <a href="mailto:gmashine@yandex.ru">
+              <span>gmashine@yandex.ru</span>
+            </a>
+          </div> -->
+
+            <!-- <div class="contact_info__box">
+            <span>Время работы</span>
+            <span>с 9:30 до 22:00 (БЕЗ ВЫХОДНЫХ)</span>
+          </div> -->
+
+          </div>
+
+          <!-- <span>Адрес</span>
+        <span>г. Москва 50-лет октября дом 4</span>
+
+
+        <span>Телефон</span>
+        <a href="tel:89691969994">
+          <span>8 (969)-196-99-94</span>
+        </a>
+
+        <span>Почта</span>
+        <a href="mailto:gmashine@yandex.ru">
+          <span>gmashine@yandex.ru</span>
+        </a>
+
+        <span>Время работы</span>
+        <span>с 9:30 до 22:00 (БЕЗ ВЫХОДНЫХ)</span> -->
+        </div>
+
+
+
+        <div class="contact_soc">
+          <div class="soc">
+            <i id="icon_youtube" class="fab fa-youtube"></i>
+            <i id="icon_whats" class="fab fa-whatsapp-square"></i>
+            <i id="icon_vk" class="fab fa-vk"></i>
+            <img class="inst_icon" src="img/instagram.png" alt="iconfinder-Instagram-1298747" border="0" />
+            <i id="icon_twitter" class="fab fa-twitter"></i>
+            <i id="icon_telega" class="fab fa-telegram"></i>
+            <i id="icon_facebook" class="fab fa-facebook-square"></i>
+          </div>
+        </div>
+
+        <div class="col_contact__map">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abd1a117ccfe4a190504762fb334b6d9641a30288aff775b880011810662162bd&amp;source=constructor" width="100%" height="350" frameborder="0"></iframe>
+        </div>
+
+      </div>
+
+      <div class="column_contact_callback">
+
+        <div class="contact_form__wrapp">
+          <div class="contact_form">
+            <!-- <div class="contact_form__title">
+            <span>Связаться с нами:</span>
+          </div> -->
+            <div class="contact_form_input__wrapp">
+              <div class="contact_form_input">
+                <div class="input">
+                  <label>
+                    Ваше имя:
+                    <span>*</span>
+                  </label>
+                  <input type="text" class="field" name="name" placeholder="Введите имя" />
+                </div>
+                <div class="input">
+                  <label>
+                    Контактный телефон:
+                    <span>*</span>
+                  </label>
+                  <input type="text" class="field" name="phone" placeholder="Введите телефон" />
+                </div>
+
+                <div class="contact_form_btn">
+                  <button onclick="save()">
+                    Заказать звонок
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+  <div class="container">
+    <hr class="featurette-divider" style="margin-top:50px;">
+
+    <div class="card">
+      <h5 class="card-header">Как к нам добраться</h5>
+      <div class="card-body">
+        ...
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- <div class="map_get_us">
+      <div class="map_get_us__title">
+        <span>Как к нам добраться</span>
+      </div>
+      <div class="detail__map">
+        <div id="form-container"></div>
+      </div>
+    </div> -->
+
+
+
+
+
+
+  <footer>
+
+    <div class="footer__wrapp">
+      <div class="footer__row1">
+
+        <div class="footer_map">
+          <div class="contact_info__box">
+            <span id="contact_color__span">Адрес</span>
+            <span>г. Москва, ул. 50 лет Октября, дом 4 </span>
+            <br>
+            <span id="contact_color__span">Время работы</span>
+            <span>с 9:30 до 22:00 (БЕЗ ВЫХОДНЫХ)</span>
+          </div>
+        </div>
+
+        <div class="footer_contact">
+          <div class="footer_contact__info">
+            <div class="footer_email">
+              <div class="contact_info__box">
+                <span id="contact_color__span">Телефон</span>
+                <a href="tel:89691969994">
+                  <span>8 (969)-196-99-94</span>
+                </a>
+                <br>
+                <span id="contact_color__span">Почта</span>
+                <a href="mailto:gmashine@yandex.ru">
+                  <span>gmashine@yandex.ru</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="footer_nav">
+          <div class="footer_nav_link">
+            <a href="index.html">Главная</a>
+            <a href="services.html">Услуги</a>
+            <a href="products.html">Продукция</a>
+            <a href="delivery.html">Доставка</a>
+            <a href="contact.html">Контакты</a>
+          </div>
+        </div>
+        <div class="footer_social">
+          <div class="callback-btn footer_callback">
+            <button class="callback button hover-shadow" data-toggle="modal" data-target="#exampleModalLong">заказать звонок</button>
+          </div>
+          <div class=" soc footer_soc">
+            <i id="icon_youtube" class="fab fa-youtube"></i>
+            <i id="icon_whats" class="fab fa-whatsapp-square"></i>
+            <i id="icon_telega" class="fab fa-telegram"></i>
+            <img class="inst_icon" src="img/instagram.png" alt="iconfinder-Instagram-1298747" border="0" />
+            <i id="icon_vk" class="fab fa-vk"></i>
+            <i id="icon_twitter" class="fab fa-twitter"></i>
+            <i id="icon_facebook" class="fab fa-facebook-square"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer__row2">
+        <div class="footer_copyright">
+          © 2019 All Rights Reserved.
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- <script src="scripts/active-form.js"></script> -->
+  <!-- <script src="./scripts/ractive.js"></script> -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.10.1/js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/header.js"></script>
+  <script src="scripts/form.js"></script>
+
+
+
+</body>
+
+</html>

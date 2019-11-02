@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/delivery.css">
+  <link rel="stylesheet" href="styles/mobile_header.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style/fontawesome-all.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <header>
+    <div class="header__wrapp">
+      <div class="header_row">
+        <div class="logo">
+          <img src="img/logo.svg" alt="">
+        </div>
+        <div class="nav-menu">
+          <div class="nav-items">
+            <a href="index.html" title="Нажмите чтобы посмотреть страницу Главная">Главная</a>
+            <a href=".html" title="Нажмите чтобы посмотреть страницу Наши услуги">Услуги</a>
+            <a href="products.html" title="Нажмите чтобы посмотреть страницу Продукция">Продукция</a>
+            <a href="delivery.html" title="Нажмите чтобы посмотреть страницу Доставка">Доставка</a>
+            <a href="contact.html" title="Нажмите чтобы посмотреть страницу Контакты">Контакты</a>
+          </div>
+        </div>
+        <div class="callback-btn footer_callback">
+          <button class="callback button hover-shadow">заказать звонок</button>
+        </div>
+        <div class="header__contact">
+          <div class="header_contact__info">
+            <div class="phone">
+              <a href="tel:89691969994">
+                <p>8 (969)-196-99-94</p>
+              </a>
+            </div>
+            <div class="email">
+              <a href="mailto:gmashine@yandex.ru">
+                <p>gmashine@yandex.ru</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="jumbotron">
+    <h1 class="display-4">Доставляем по всей России!</h1>
+
+    <p class="lead">Отправка груза производиться по условию договора.</p>
+    <hr class="my-4">
+    <!-- <p>Вся продукция застрахована</p> -->
+    <p>Склад в Москве (доставка от 1 дня)</p>
+    <p>Доставка по России от 3 дней</p>
+    <br>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Получить консультацию</a>
+  </div>
+
+  <div class="container">
+
+
+    <div class="card">
+      <h5 class="card-header">Способы доставки</h5>
+      <div class="card-body">
+        <ul>
+          <li>Отправка продукции производится любой транспорной компанией.</li>
+          <li>Если среди перечисленных ТК нету той, которая вам нужна, то свяжитесь с нами</li>
+        </ul>
+         <!-- <h5 class="card-title">
+
+           Отправка продукции производится любой транспорной компанией.
+            <br>
+          (Если среди перечисленных ТК нету той, которая вам нужна, то свяжитесь с нами)
+         </h5> -->
+
+         <div class="all_box_delivery">
+
+
+
+           <div class="box_delivery">
+             <div class="com_title">
+               <p>ТК «Байкал Сервис»</p>
+             </div>
+             <div class="com_title">
+               <a href="https://www.baikalsr.ru" target="_blank">www.baikalsr.ru</a>
+             </div>
+             <div class="com_logo">
+               <div class="com_image">
+                 <div class="wrapp_img">
+                   <a href="https://www.baikalsr.ru" target="_blank">
+                     <img src="./img/delivery/baikal.svg" alt="">
+                   </a>
+                 </div>
+               </div>
+             </div>
+             <div class="com_info">
+               <p>
+                 <a href="tel:8-495-995-08-09">8 (495) 995-08-09</a>
+               </p>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://www.baikalsr.ru/info/tracking/" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Статус груза / заявки
+                 </button>
+               </a>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://www.baikalsr.ru/tools/calculator/" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Расчет стоимости доставки
+                 </button>
+               </a>
+             </div>
+           </div>
+
+           <div class="box_delivery">
+             <div class="com_title">
+               <p>ТК «Деловые линии»</p>
+             </div>
+             <div class="com_title">
+               <a href="https://www.dellin.ru/" target="_blank">www.dellin.ru</a>
+             </div>
+             <div class="com_logo">
+               <div class="com_image">
+                 <div class="img_size_delin wrapp_img">
+                   <a href="https://www.dellin.ru/" target="_blank">
+                     <img src="./img/delivery/delin.png" alt="">
+                   </a>
+                 </div>
+               </div>
+             </div>
+             <div class="com_info">
+               <p>
+                 <a href="tel:8-800-100-80-00">8 (800) 100–80-00</a>
+               </p>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://www.dellin.ru/tracker/" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Статус груза / заявки
+                 </button>
+               </a>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://www.dellin.ru/requests/" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Расчет стоимости доставки
+                 </button>
+               </a>
+             </div>
+           </div>
+
+           <div class="box_delivery">
+             <div class="com_title">
+               <p>ТК «ПЭК»</p>
+             </div>
+             <div class="com_title">
+               <a href="https://pecom.ru/" target="_blank">www.pecom.ru</a>
+             </div>
+             <div class="com_logo">
+               <div class="com_image">
+                 <div class="wrapp_img">
+                   <a href="https://pecom.ru/" target="_blank">
+                     <img src="./img/delivery/pek.png" alt="">
+                   </a>
+                 </div>
+               </div>
+             </div>
+             <div class="com_info">
+               <p>
+                 <a href="tel:8-495-600-11-11">8 (495) 660-11-11</a>
+               </p>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://pecom.ru/services-are/order-status/" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Статус груза / заявки
+                 </button>
+               </a>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://pecom.ru/services-are/shipping-request/" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Расчет стоимости доставки
+                 </button>
+               </a>
+             </div>
+           </div>
+
+           <div class="box_delivery">
+             <div class="com_title">
+               <p>ТК «СДЭК»</p>
+             </div>
+             <div class="com_title">
+               <a href="https://www.cdek.ru/" target="_blank">www.cdek.ru</a>
+             </div>
+             <div class="com_logo">
+               <div class="com_image">
+                 <div class="wrapp_img">
+                   <a href="https://www.cdek.ru/" target="_blank">
+                     <img src="./img/delivery/cdek.png" alt="">
+                   </a>
+                 </div>
+               </div>
+             </div>
+             <div class="com_info">
+               <p>
+                 <a href="tel:8-800-250-04-05">8 (800) 250-04-05</a>
+               </p>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://www.cdek.ru/track.html" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Статус груза / заявки
+                 </button>
+               </a>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://www.cdek.ru/calculator.html" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Расчет стоимости доставки
+                 </button>
+               </a>
+             </div>
+           </div>
+
+           <div class="box_delivery">
+             <div class="com_title">
+               <p>«Почта России»</p>
+             </div>
+             <div class="com_title">
+               <a href="https://www.pochta.ru/" target="_blank">www.pochta.ru</a>
+             </div>
+             <div class="com_logo">
+               <div class="com_image">
+                 <div class="wrapp_img">
+                   <a href="https://www.pochta.ru/" target="_blank">
+                     <img src="./img/delivery/russian_post.png" alt="">
+                   </a>
+                 </div>
+               </div>
+             </div>
+             <div class="com_info">
+               <p>
+                 <a href="tel:8-800-200-58-88">8 (800) 200-58-88</a>
+               </p>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://www.pochta.ru/tracking" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Статус груза / заявки
+                 </button>
+               </a>
+             </div>
+             <div class="wrapp_btn">
+               <a href="https://www.pochta.ru/parcels" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Расчет стоимости доставки
+                 </button>
+               </a>
+             </div>
+           </div>
+
+           <div class="box_delivery">
+             <div class="com_title">
+               <p>Самовывоз</p>
+             </div>
+             <div class="com_title">
+               <a href="contact.html" target="_blank">Контакты</a>
+             </div>
+             <div class="com_logo">
+               <div class="com_image">
+                 <div class="img_size_point wrapp_img">
+                   <a href="contact.html" target="_blank">
+                     <img src="./img/delivery/pickup-point.png" alt="">
+                   </a>
+                 </div>
+               </div>
+             </div>
+             <div class="com_info">
+               <p>
+                 <a href="tel:8-969-196-99-94">8 (969) 196-99-94</a>
+               </p>
+             </div>
+             <div class="wrapp_btn">
+               <a href="contact.html" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Заказать звонок
+                 </button>
+               </a>
+             </div>
+             <div class="wrapp_btn">
+               <a href="contact.html" target="_blank">
+                 <button id="delivery_btn" class="my_primary__btn">
+                   <i class="fa fa-chevron-right"></i>
+                   Уточнить наличие на складе
+                 </button>
+               </a>
+             </div>
+           </div>
+</div>
+
+
+      </div>
+    </div>
+
+  <!-- <div class="delivery__wrapp">
+    <div class="delivery_title">
+      <h2 class="">Способы доставки</h2>
+      <p class="lead">
+        Отправка продукции производится любой транспорной компанией.
+        <br>
+        (Если среди перечисленных ТК нету той, которая вам нужна, то свяжитесь с нами)
+      </p>
+    </div>
+  </div>
+
+  <div class="all_box_delivery">
+
+
+
+    <div class="box_delivery">
+      <div class="com_title">
+        <p>ТК «Байкал Сервис»</p>
+      </div>
+      <div class="com_title">
+        <a href="https://www.baikalsr.ru" target="_blank">www.baikalsr.ru</a>
+      </div>
+      <div class="com_logo">
+        <div class="com_image">
+          <div class="wrapp_img">
+            <a href="https://www.baikalsr.ru" target="_blank">
+              <img src="./img/delivery/baikal.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="com_info">
+        <p>
+          <a href="tel:8-495-995-08-09">8 (495) 995-08-09</a>
+        </p>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://www.baikalsr.ru/info/tracking/" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Статус груза / заявки
+          </button>
+        </a>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://www.baikalsr.ru/tools/calculator/" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Расчет стоимости доставки
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="box_delivery">
+      <div class="com_title">
+        <p>ТК «Деловые линии»</p>
+      </div>
+      <div class="com_title">
+        <a href="https://www.dellin.ru/" target="_blank">www.dellin.ru</a>
+      </div>
+      <div class="com_logo">
+        <div class="com_image">
+          <div class="img_size_delin wrapp_img">
+            <a href="https://www.dellin.ru/" target="_blank">
+              <img src="./img/delivery/delin.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="com_info">
+        <p>
+          <a href="tel:8-800-100-80-00">8 (800) 100–80-00</a>
+        </p>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://www.dellin.ru/tracker/" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Статус груза / заявки
+          </button>
+        </a>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://www.dellin.ru/requests/" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Расчет стоимости доставки
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="box_delivery">
+      <div class="com_title">
+        <p>ТК «ПЭК»</p>
+      </div>
+      <div class="com_title">
+        <a href="https://pecom.ru/" target="_blank">www.pecom.ru</a>
+      </div>
+      <div class="com_logo">
+        <div class="com_image">
+          <div class="wrapp_img">
+            <a href="https://pecom.ru/" target="_blank">
+              <img src="./img/delivery/pek.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="com_info">
+        <p>
+          <a href="tel:8-495-600-11-11">8 (495) 660-11-11</a>
+        </p>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://pecom.ru/services-are/order-status/" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Статус груза / заявки
+          </button>
+        </a>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://pecom.ru/services-are/shipping-request/" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Расчет стоимости доставки
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="box_delivery">
+      <div class="com_title">
+        <p>ТК «СДЭК»</p>
+      </div>
+      <div class="com_title">
+        <a href="https://www.cdek.ru/" target="_blank">www.cdek.ru</a>
+      </div>
+      <div class="com_logo">
+        <div class="com_image">
+          <div class="wrapp_img">
+            <a href="https://www.cdek.ru/" target="_blank">
+              <img src="./img/delivery/cdek.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="com_info">
+        <p>
+          <a href="tel:8-800-250-04-05">8 (800) 250-04-05</a>
+        </p>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://www.cdek.ru/track.html" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Статус груза / заявки
+          </button>
+        </a>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://www.cdek.ru/calculator.html" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Расчет стоимости доставки
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="box_delivery">
+      <div class="com_title">
+        <p>«Почта России»</p>
+      </div>
+      <div class="com_title">
+        <a href="https://www.pochta.ru/" target="_blank">www.pochta.ru</a>
+      </div>
+      <div class="com_logo">
+        <div class="com_image">
+          <div class="wrapp_img">
+            <a href="https://www.pochta.ru/" target="_blank">
+              <img src="./img/delivery/russian_post.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="com_info">
+        <p>
+          <a href="tel:8-800-200-58-88">8 (800) 200-58-88</a>
+        </p>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://www.pochta.ru/tracking" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Статус груза / заявки
+          </button>
+        </a>
+      </div>
+      <div class="wrapp_btn">
+        <a href="https://www.pochta.ru/parcels" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Расчет стоимости доставки
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="box_delivery">
+      <div class="com_title">
+        <p>Самовывоз</p>
+      </div>
+      <div class="com_title">
+        <a href="contact.html" target="_blank">Контакты</a>
+      </div>
+      <div class="com_logo">
+        <div class="com_image">
+          <div class="img_size_point wrapp_img">
+            <a href="contact.html" target="_blank">
+              <img src="./img/delivery/pickup-point.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="com_info">
+        <p>
+          <a href="tel:8-969-196-99-94">8 (969) 196-99-94</a>
+        </p>
+      </div>
+      <div class="wrapp_btn">
+        <a href="contact.html" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Заказать звонок
+          </button>
+        </a>
+      </div>
+      <div class="wrapp_btn">
+        <a href="contact.html" target="_blank">
+          <button id="delivery_btn" class="my_primary__btn">
+            <i class="fa fa-chevron-right"></i>
+            Уточнить наличие на складе
+          </button>
+        </a>
+      </div>
+    </div>
+
+
+
+  </div> -->
+  <div class="delivery__wrapp">
+    <div class="delivery_title">
+      <hr class="featurette-divider">
+    </div>
+  </div>
+
+  <div class="card">
+    <h5 class="card-header">Надёжно</h5>
+    <div class="card-body">
+      <ul>
+        <li>Все заказы на сумму от 5000 руб. страхуются на полную стоимость. В случаях утраты, повреждения товара во время доставки, денежные средства возвращаются.</li>
+        <li>  Транспортная компания предоставляет номер груза (трек номер), по которому вы можете отследить местонахождение груза, на сайте транспортной компании.</li>
+        <li>При поступлении груза на терминал вашего города, с вами свяжется менеджер транспортной компании, также придет смс сообщение на ваш телефон.</li>
+      </ul>
+    </div>
+  </div>
+
+    <hr class="featurette-divider">
+
+  <div class="card">
+    <h5 class="card-header">Стоимость доставки и сроки</h5>
+    <div class="card-body">
+      <ul>
+        <li>Отправка продукции транспортными компаниями осуществляются только после 100% оплаты товара.</li>
+        <li>Передача продукции в транспортную компанию осуществляется бесплатно.</li>
+        <li>Заказчик самостоятельно производит расчет с транспортной компанией.</li>
+      </ul>
+    </div>
+  </div>
+
+    <hr class="featurette-divider">
+
+  <div class="card">
+    <h5 class="card-header">Возврат товара</h5>
+    <div class="card-body">
+      ????
+    </div>
+  </div>
+
+<hr class="featurette-divider">
+
+  <div class="card">
+    <h5 class="card-header">Претензии о повреждении груза / В случае повреждения груза</h5>
+    <div class="card-body">
+      ??? вот например тут что написано
+      <br>
+      https://lyson-russia.ru/dostavka/
+    </div>
+  </div>
+
+  <!-- <div class="delivery__wrapp">
+    <div class="delivery_title">
+      <h2 class="">Надёжно</h2>
+      <ul>
+        <li>Все заказы на сумму от 5000 руб. страхуются на полную стоимость. В случаях утраты, повреждения товара во время доставки, денежные средства возвращаются.</li>
+        <li>  Транспортная компания предоставляет номер груза (трек номер), по которому вы можете отследить местонахождение груза, на сайте транспортной компании.</li>
+        <li>При поступлении груза на терминал вашего города, с вами свяжется менеджер транспортной компании, также придет смс сообщение на ваш телефон.</li>
+      </ul>
+
+      <hr class="featurette-divider">
+    </div>
+  </div> -->
+
+  <!-- <div class="delivery__wrapp">
+    <div class="delivery_title">
+      <h2 class="">Стоимость доставки и сроки</h2>
+      <ul>
+        <li>Отправка продукции транспортными компаниями осуществляются только после 100% оплаты товара.</li>
+        <li>Передача продукции в транспортную компанию осуществляется бесплатно.</li>
+        <li>Заказчик самостоятельно производит расчет с транспортной компанией.</li>
+      </ul>
+
+      <hr class="featurette-divider">
+    </div>
+  </div> -->
+
+  <!-- <div class="delivery__wrapp">
+    <div class="delivery_title">
+      <h2 class="">Возврат товара</h2>
+      ???
+      <hr class="featurette-divider">
+    </div>
+  </div> -->
+
+  <!-- <div class="delivery__wrapp">
+    <div class="delivery_title">
+      <h2 class="">Претензии о повреждении груза</h2>
+      ??? вот например тут что написано
+      <br>
+      https://lyson-russia.ru/dostavka/
+    </div>
+  </div> -->
+
+
+
+</div>
+
+
+  <footer>
+
+
+    <div class="footer__wrapp">
+      <div class="footer__row1">
+        <div class="footer_map">
+          <div class="contact_info__box">
+            <span id="contact_color__span">Адрес</span>
+            <span>г. Москва, ул. 50 лет Октября, дом 4 </span>
+            <br>
+            <span id="contact_color__span">Время работы</span>
+            <span>с 9:30 до 22:00 (БЕЗ ВЫХОДНЫХ)</span>
+          </div>
+        </div>
+
+        <div class="footer_contact">
+          <div class="footer_contact__info">
+            <div class="footer_email">
+              <div class="contact_info__box">
+                <span id="contact_color__span">Телефон</span>
+                <a href="tel:89691969994">
+                  <span>8 (969)-196-99-94</span>
+                </a>
+                <br>
+                <span id="contact_color__span">Почта</span>
+                <a href="mailto:gmashine@yandex.ru">
+                  <span>gmashine@yandex.ru</span>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="footer_nav">
+          <div class="footer_nav_link">
+            <a href="index.html">Главная</a>
+            <a href="services.html">Услуги</a>
+            <a href="products.html">Продукция</a>
+            <a href="delivery.html">Доставка</a>
+            <a href="contact.html">Контакты</a>
+          </div>
+        </div>
+        <div class="footer_social">
+          <div class="callback-btn footer_callback">
+            <button class="callback button hover-shadow">заказать звонок</button>
+          </div>
+          <div class=" soc footer_soc">
+            <i id="icon_youtube" class="fab fa-youtube"></i>
+            <i id="icon_whats" class="fab fa-whatsapp-square"></i>
+            <i id="icon_telega" class="fab fa-telegram"></i>
+            <img class="inst_icon" src="img/instagram.png" alt="iconfinder-Instagram-1298747" border="0" />
+            <i id="icon_vk" class="fab fa-vk"></i>
+            <i id="icon_twitter" class="fab fa-twitter"></i>
+            <i id="icon_facebook" class="fab fa-facebook-square"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer__row2">
+        <div class="footer_copyright">
+          © Good Mashine, 2019 г. Все права защищены.
+          <!-- © 2019 All Rights Reserved. -->
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+</body>
+
+</html>
